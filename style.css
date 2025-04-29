@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #121212;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #00ffcc;
+}
+section {
+  padding: 4rem 2rem;
+}
+h1, h2 {
+  color: #00ffcc;
+}
+.game-card {
+  background-color: #2c2c2c;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0,255,204,0.2);
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #121212;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: #00ffcc;
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #00cca3;
+}
+#home
+{
+    text-align: center;
+}
+.instagram-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.insta-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.owner {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 15px;
+  color: white;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00ffee;
+}
+
+.role {
+  font-size: 14px;
+  color: #cccccc;
+}
